@@ -1,0 +1,31 @@
+.header {
+    font-size: 60px;
+    -unity-text-outline-color: rgba(255, 255, 255, 0);
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    -unity-font: url('project://database/Assets/Fonts/futura-pt/FuturaCyrillicExtraBold.ttf?fileID=12800000&guid=e8ec54d085f4acf418cdb18c889b7f72&type=3#FuturaCyrillicExtraBold');
+    -unity-font-style: bold;
+}
+
+.button {
+    width: 320px;
+    height: 72px;
+    align-self: center;
+    font-size: 28px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 20px;
+    -unity-font: url('project://database/Assets/Fonts/futura-pt/FuturaCyrillicMedium.ttf?fileID=12800000&guid=432ebd6cfef48ba46932696d022be3b0&type=3#FuturaCyrillicMedium');
+    background-image: url('project://database/Assets/Sprites/UI/Prinbles_GUI_Asset_Silent%20(1.0.0)/asset/png/ProgressBar/Background.png?fileID=2800000&guid=673ed9130448dbd41a949912ba3e9aa8&type=3#Background');
+    -unity-font-style: bold;
+    background-color: rgba(42, 45, 55, 0);
+    color: rgb(229, 37, 84);
+}
+
+.button:hover {
+    width: 360px;
+    height: 80px;
+}

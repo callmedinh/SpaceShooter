@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=9c76d6d4dab389444bc9b5a3d8a422d7&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; color: rgb(255, 255, 255); align-self: center; justify-content: center; align-items: auto; background-color: rgba(50, 55, 65, 0); background-image: url(&apos;project://database/Assets/Sprites/UI/Prinbles_GUI_Asset_Silent%20(1.0.0)/asset/png/Panel/Window/Big.png?fileID=2800000&amp;guid=68cf208107d44674e83f132bce0dc2c2&amp;type=3#Big&apos;); width: 100%; height: 100%;">
+        <ui:Label tabindex="-1" text="SPACE SHOOTER" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Header" class="header" style="position: absolute; top: 80px;" />
+        <ui:Button text="Solo" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Solo_btn" class="button" style="-unity-background-image-tint-color: rgb(255, 255, 255);" />
+        <ui:Button text="Duo" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Duo_btn" class="button" />
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Sound_btn" style="position: absolute; bottom: 40px; left: 40px; background-image: url(&apos;project://database/Assets/Sprites/UI/Prinbles_GUI_Asset_Silent%20(1.0.0)/asset/png/Buttons/Square-Medium/SoundOn/Default.png?fileID=2800000&amp;guid=c3a6f1974319f064cae2c7297885f43f&amp;type=3#Default&apos;); width: 60px; height: 60px; background-color: rgba(188, 188, 188, 0);" />
+    </ui:VisualElement>
+</ui:UXML>
