@@ -92,6 +92,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -311,6 +312,7 @@
 -r:"C:/App/2022.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll"
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/2000b0aEDbg.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aEDbg.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aEDbg.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aEDbg.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -338,16 +340,19 @@
 -r:"Library/Bee/artifacts/2000b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/App/2022.3.16f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/App/2022.3.16f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Prefabs/Interface/IDamageable.cs"
 "Assets/Scripts/Asteroid.cs"
+"Assets/Scripts/Bullet.cs"
 "Assets/Scripts/Enemy/Enemy.cs"
+"Assets/Scripts/Event/GameplayEvent.cs"
 "Assets/Scripts/Explosion.cs"
-"Assets/Scripts/GameManager.cs"
-"Assets/Scripts/Laser.cs"
-"Assets/Scripts/Main_Menu/MainMenu.cs"
+"Assets/Scripts/Manager/GameManager.cs"
+"Assets/Scripts/Manager/SpawnManager.cs"
 "Assets/Scripts/Player.cs"
-"Assets/Scripts/PlayerAnimations.cs"
 "Assets/Scripts/PowerUp/PowerUp.cs"
-"Assets/Scripts/SpawnManager.cs"
+"Assets/Scripts/ScriptableObject/BulletData.cs"
+"Assets/Scripts/ScriptableObject/EnemyData.cs"
+"Assets/Scripts/ScriptableObject/PlayerData.cs"
 "Assets/Scripts/UIManager.cs"
 -langversion:9.0
 
