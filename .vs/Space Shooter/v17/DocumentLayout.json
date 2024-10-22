@@ -3,52 +3,76 @@
   "WorkspaceRootPath": "C:\\WorkPlace\\GameJob\\Space Shooter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\manager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\event\\gameplayevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\event\\gameplayevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|c:\\workplace\\gamejob\\space shooter\\assets\\scripts\\scriptableobject\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobject\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\scriptableobject\\bulletdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobject\\bulletdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|c:\\workplace\\gamejob\\space shooter\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\manager\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\scriptableobject\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobject\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\enemy\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\powerup\\powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\powerup\\powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\prefabs\\interface\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\interface\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\skills\\spreadshotskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skills\\spreadshotskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\interface\\ishootable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interface\\ishootable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\manager\\hudmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\hudmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\manager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\event\\gameplayevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\event\\gameplayevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\interface\\iskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interface\\iskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\skills\\homingmissileskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skills\\homingmissileskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\skills\\laserbarrageskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skills\\laserbarrageskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\enemy\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\enemy\\normalenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\normalenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\scriptableobject\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobject\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\manager\\playerselectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\playerselectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WorkPlace\\GameJob\\Space Shooter\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Editor\\UI\\ImageEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@1.0.0\\Editor\\UI\\ImageEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Main_Menu\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,12 +83,12 @@
       "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\explosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\asteroid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\asteroid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WorkPlace\\GameJob\\Space Shooter\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Prefabs\\Interface\\IDamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Prefabs\\Interface\\IDamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,150 +98,229 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UIManager.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\UIManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
-              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\UIManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAiwFUAAAAtAAAA",
+              "DocumentIndex": 6,
+              "Title": "IShootable.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Interface\\IShootable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interface\\IShootable.cs",
+              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Interface\\IShootable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interface\\IShootable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T01:06:43.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T16:46:02.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "Boss.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Enemy\\Boss.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Boss.cs",
+              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Enemy\\Boss.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Boss.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T16:25:06.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Enemy\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy.cs",
               "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Enemy\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAADUAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T00:21:56.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T16:08:37.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
-              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwAgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:39:23.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
               "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Bullet.cs",
               "RelativeToolTip": "Assets\\Scripts\\Bullet.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAgwFEAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAwBIAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T00:28:44.43Z",
+              "WhenOpened": "2024-10-19T12:18:58.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GameplayEvent.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Event\\GameplayEvent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Event\\GameplayEvent.cs",
-              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Event\\GameplayEvent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Event\\GameplayEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T08:14:48.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EnemyData.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\ScriptableObject\\EnemyData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObject\\EnemyData.cs",
-              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\ScriptableObject\\EnemyData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScriptableObject\\EnemyData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T11:08:43.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Manager\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\GameManager.cs",
-              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Manager\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Manager\\GameManager.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAQwC0AAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T14:31:38.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BulletData.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\ScriptableObject\\BulletData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObject\\BulletData.cs",
-              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\ScriptableObject\\BulletData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScriptableObject\\BulletData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T09:15:13.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "SpawnManager.cs",
               "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Manager\\SpawnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\SpawnManager.cs",
               "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Manager\\SpawnManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Manager\\SpawnManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAA8AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T10:06:03.984Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PlayerData.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\ScriptableObject\\PlayerData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObject\\PlayerData.cs",
-              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\ScriptableObject\\PlayerData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScriptableObject\\PlayerData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAqwCUAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T14:58:17.663Z"
+              "WhenOpened": "2024-10-22T16:00:35.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SpreadShotSkill.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Skills\\SpreadShotSkill.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Skills\\SpreadShotSkill.cs",
+              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Skills\\SpreadShotSkill.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Skills\\SpreadShotSkill.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T07:10:56.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HUDManager.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Manager\\HUDManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\HUDManager.cs",
+              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Manager\\HUDManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\HUDManager.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwDUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T16:08:03.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Manager\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\GameManager.cs",
+              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Manager\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\GameManager.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAuwAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T14:31:38.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameplayEvent.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Event\\GameplayEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Event\\GameplayEvent.cs",
+              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Event\\GameplayEvent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Event\\GameplayEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T16:16:00.873Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "PowerUp.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\PowerUp\\PowerUp.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PowerUp\\PowerUp.cs",
-              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\PowerUp\\PowerUp.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PowerUp\\PowerUp.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Title": "ISkill.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Interface\\ISkill.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interface\\ISkill.cs",
+              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Interface\\ISkill.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interface\\ISkill.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T23:24:00.797Z"
+              "WhenOpened": "2024-10-22T09:55:00.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LaserBarrageSkill.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Skills\\LaserBarrageSkill.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Skills\\LaserBarrageSkill.cs",
+              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Skills\\LaserBarrageSkill.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Skills\\LaserBarrageSkill.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T15:41:59.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EnemyBase.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Enemy\\EnemyBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyBase.cs",
+              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Enemy\\EnemyBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T05:57:39.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomingMissileSkill.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Skills\\HomingMissileSkill.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Skills\\HomingMissileSkill.cs",
+              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Skills\\HomingMissileSkill.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Skills\\HomingMissileSkill.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T07:31:23.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NormalEnemy.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Enemy\\NormalEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\NormalEnemy.cs",
+              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Enemy\\NormalEnemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\NormalEnemy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:01:39.764Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "EnemyData.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\ScriptableObject\\EnemyData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObject\\EnemyData.cs",
+              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\ScriptableObject\\EnemyData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObject\\EnemyData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T04:56:30.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PlayerSelectionManager.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Manager\\PlayerSelectionManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\PlayerSelectionManager.cs",
+              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Manager\\PlayerSelectionManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\PlayerSelectionManager.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T07:38:58.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ImageEditor.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Editor\\UI\\ImageEditor.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Editor\\UI\\ImageEditor.cs",
+              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Editor\\UI\\ImageEditor.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Editor\\UI\\ImageEditor.cs",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAIwLEAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T03:52:17.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -229,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "IDamageable.cs",
               "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Prefabs\\Interface\\IDamageable.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\Interface\\IDamageable.cs",
@@ -241,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Main_Menu\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Main_Menu\\MainMenu.cs",
@@ -252,19 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Asteroid.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Asteroid.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Asteroid.cs",
-              "ToolTip": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Asteroid.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Asteroid.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T12:17:56.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "Explosion.cs",
               "DocumentMoniker": "C:\\WorkPlace\\GameJob\\Space Shooter\\Assets\\Scripts\\Explosion.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Explosion.cs",

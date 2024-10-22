@@ -1,13 +1,16 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private GameObject _playerPrefab;
-    [SerializeField] private GameObject _pauseMenuPanel;
-
+    public PlayerData CurrentPlayer;
+    public BulletData BulletData;
+    public PlayerData[] playerList;
+    private bool bossSpawned = false;
+    private int _enemyKilled = 0;
+    private bool _gameStarted = false;
 
 
     private static GameManager instance;
@@ -23,32 +26,62 @@ public class GameManager : MonoBehaviour
         {
             instance = this;
         }
+        CurrentPlayer = playerList[0];
     }
-    private void OnEnable()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            UIManager.Instance.BackToMainMenu();
+            //activeSelf: The local active state of the GameObject. True if active, false if inactive. (Read Only)
+            UIManager.Instance.TooglePauseMenu();
         }
-        if (Input.GetKeyDown(KeyCode.P))
+        if (!bossSpawned && CurrentPlayer.enemyKilled > 5 && _gameStarted)
         {
-            _pauseMenuPanel.SetActive(true);
-            Time.timeScale = 0;
+            SpawnManager.Instance.SpawnBoss();
+            bossSpawned = true; // Đánh dấu là boss đã được spawn
         }
-        GameplayEvent.PlayerHited += IsGameOver;
     }
-    public void IsGameOver(PlayerData playerData)
+    private void OnEnable()
     {
-        if (playerData.currentHealth <= 0)
+        GameplayEvent.PlayerHited += EndGame;
+        GameplayEvent.OnBossDeath += WinGame;
+        
+    }
+    private void OnDisable()
+    {
+        GameplayEvent.PlayerHited -= EndGame;
+        GameplayEvent.OnBossDeath -= WinGame;
+    }
+    public void EndGame(int health)
+    {
+        if (health <= 0)
         {
-            Debug.Log(playerData.currentHealth);
             GameplayEvent.GameOver?.Invoke();
             Time.timeScale = 0;
         }
     }
-    public void HidePausePanel()
+    public void WinGame()
     {
-        _pauseMenuPanel.SetActive(false);
-        Time.timeScale = 1;
+        Time.timeScale = 0;
+    }
+    public void StartGame()
+    {
+        //reset player
+        CurrentPlayer.currentHealth = CurrentPlayer.maxHealth;
+        CurrentPlayer.score = 0;
+        CurrentPlayer.enemyKilled = 0;
+        //initialize Layer and pass data into it
+        GameObject playerObject =  Instantiate(CurrentPlayer.playerPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+        Player player = playerObject.GetComponent<Player>();
+
+        if (player != null)
+        {
+            player.Initialize(BulletData, CurrentPlayer);
+        }
+        Debug.Log("Start game Player: " + CurrentPlayer);
+        UIManager.Instance.DisplayHUD(true);
+        GameplayEvent.GameStarted?.Invoke(true);
+        bossSpawned = false;
+        _gameStarted = true;
     }
 }

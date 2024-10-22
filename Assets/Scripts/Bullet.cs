@@ -4,78 +4,50 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public float speed = 8f;
-    public float damage = 5f;
-    private bool _isEnemyLaser = false;
-    [SerializeField] private BulletData BulletData;
+    private float _speed = 8f;
+    private float _damage = 5f;
+    private Vector2 _direction;
+    public bool _isEnemyBullet = false;
 
-    // Update is called once per frame
-    private void Start()
+
+    public void Initialize(Vector2 direction, float speed, float damage, bool enemyBullet)
     {
-        if (BulletData != null)
-        {
-            speed = BulletData.speed;
-            damage = BulletData.damage;
-        } else
-        {
-            Debug.LogWarning("Bullet: BulletData is null");
-        }
-    }
+        this._direction = direction;
+        this._speed = speed;
+        this._damage = damage;
+        this._isEnemyBullet = enemyBullet;
+    } 
     void Update()
     {
-        if (_isEnemyLaser)
+        transform.Translate(_direction * _speed * Time.deltaTime);
+        if (transform.position.y > 8 || transform.position.y < -8)
         {
-            MoveDown();
-        } else
-        {
-            MoveUp();
-        }
-    }
-    public void MoveUp()
-    {
-        transform.Translate(Vector3.up * speed * Time.deltaTime);
-        if (transform.position.y > 8)
-        {
-            if (transform.parent != null)
-            {
-                Destroy(transform.parent.gameObject);
-            }
             Destroy(gameObject);
         }
-    }
-    public void MoveDown()
-    {
-        transform.Translate(Vector3.down * speed * Time.deltaTime);
-        if (transform.position.y < -8)
-        {
-            if (transform.parent != null)
-            {
-                Destroy(transform.parent.gameObject);
-            }
-            Destroy(gameObject);
-        }
-    }
-    public bool IsEnemyLaser()
-    {
-        return _isEnemyLaser;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (_isEnemyBullet)
         {
-            Player player = collision.GetComponent<Player>();
-            player.PlayerData.currentHealth -= this.BulletData.damage;
-            GameplayEvent.PlayerHited?.Invoke(player.PlayerData);
-        }
-        if (collision.CompareTag("Enemy"))
+            if (collision.CompareTag("Player"))
+            {
+                Player player = collision.GetComponent<Player>();
+                if (player != null)
+                {
+                    player.TakeDamage((int)this._damage);
+                    GameplayEvent.PlayerHited?.Invoke(player.GetCurrentHealth());
+                    Destroy(this.gameObject);
+                }
+            }
+        }else if (collision.CompareTag("Enemy"))
         {
-            Debug.Log("Enemy Collision");
             Enemy enemy = collision.GetComponent<Enemy>();
             if (enemy != null)
             {
-                enemy.TakeDamage((int)damage);
+                enemy.TakeDamage((int)_damage);
+                GameplayEvent.EnemyHited?.Invoke(enemy.EnemyData);
             }
-            GameplayEvent.EnemyHited?.Invoke(enemy.EnemyData);
+            Destroy(this.gameObject);
         }
     }
 }

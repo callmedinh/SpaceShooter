@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1419642585, guid: e8d5c0fb4b070144c95aa2f28310e364, type: 3}
+  m_Sprite: {fileID: -1279871227, guid: 4573e6575851515409d94c826493c33f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -119,18 +119,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.012454033, y: -0.010651469}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.56, y: 0.58}
+    oldSize: {x: 1.54, y: 0.58}
     newSize: {x: 1.56, y: 0.58}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.56, y: 0.58}
+  m_Size: {x: 1.7087481, y: 0.88331866}
   m_EdgeRadius: 0
 --- !u!114 &-989908557768691406
 MonoBehaviour:
@@ -144,9 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26992352cece32148a193a39769d19f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletData: {fileID: 11400000, guid: 14113293620708343ad94a61c95af3a4, type: 2}
   EnemyData: {fileID: 11400000, guid: a64079e7631b1564da63d877e7cbbfc7, type: 2}
-  health: 5
 --- !u!50 &-6663629747072519829
 Rigidbody2D:
   serializedVersion: 4

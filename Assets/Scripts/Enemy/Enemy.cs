@@ -1,75 +1,97 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour, IDamageable
+public class Enemy : MonoBehaviour, IDamageable, IShootable
 {
-    public BulletData BulletData;
+    private BulletData _bulletData;
     public EnemyData EnemyData;
+
+
     private float _fireRate = 3f;
-    private float _canFire = -1f;
     private float _speed = 4f;
+    private float _canFire = 0.1f;
+    private Transform _firePoint;
+    private float _horizontalSpeed = 2f;
+    private Vector2 _direction;
+    public int _health;
 
-    public int health;
-
-    private void Start()
+    public void Initialize(EnemyData enemyData, BulletData bulletData)
     {
-        if (EnemyData != null && BulletData != null)
-        {
-            _speed = EnemyData.speed;
-            _fireRate = BulletData.fireRate;
-        }
-        else
-        {
-            Debug.LogWarning("Enemy: EnemyData || BulletData are null");
-        }
+        EnemyData = enemyData;
+        _bulletData = bulletData;
+        _health = enemyData.health;
     }
+    private void Awake()
+    {
+        _direction = new Vector2(Random.Range(-1f, 1f), -1).normalized;
+    }
+
 
     void Update()
     {
+        _firePoint = this.transform;
         CalculateMovement();
-    }
-    public void FireLaser()
-    {
-        if (Time.time > _canFire)
-        {
-            _fireRate = Random.Range(3f, 5f);
-            _canFire = Time.time + _fireRate;
-            //laser prefab have 2 children
-            GameObject enemyLaser = Instantiate(BulletData.bulletPrefab, transform.position + new Vector3(0, -2, 0), Quaternion.identity);
-        }
+        Shoot(_bulletData, _firePoint);
+  
     }
     public void CalculateMovement()
     {
-        transform.Translate(Vector3.down * _speed * Time.deltaTime);
+        transform.Translate(_direction * _speed * Time.deltaTime);
 
         if (transform.position.y <= -5)
         {
-            transform.position = new(Random.Range(-6, 6), 8, transform.position.z);
+            transform.position = new Vector3(Random.Range(-6, 6), 8, transform.position.z);
+        }
+        else
+        {
+            // Đổi hướng khi chạm vào bờ
+            if (transform.position.x <= -6 || transform.position.x >= 6)
+            {
+                _direction.x *= -1; // Đổi hướng ngang
+            }
         }
     }
-
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Player player = collision.GetComponent<Player>();
+            if (player != null)
+            {
+                player.TakeDamage(EnemyData.damage);
+                GameplayEvent.PlayerHited?.Invoke(player.GetCurrentHealth());
+                Destroy(this.gameObject);
+            }
+        }
+    }
     public void TakeDamage(int amount)
     {
-        health -= amount;
-        if (health <= 0)
+        _health -= amount;
+        Debug.Log(_health);
+        if (_health <= 0)
         {
             Die();
         }
     }
-    private void Die()
+    public virtual void Die()
     {
         Destroy(gameObject);
+        GameplayEvent.EnemyKilled?.Invoke();
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+
+    public void Shoot(BulletData bulletData, Transform firePoint)
     {
-        if (collision.CompareTag("Player"))
+        if (Time.time > _canFire)
         {
-            Player player = collision.GetComponent<Player>();
-            player.PlayerData.currentHealth -= this.EnemyData.damage;
-            Destroy(this.gameObject);
-            GameplayEvent.PlayerHited?.Invoke(player.PlayerData);
+            _canFire = Time.time + _fireRate;
+            GameObject bullet = Instantiate(bulletData.bulletPrefab, firePoint.position, Quaternion.identity);
+            Bullet bulletScript = bullet.GetComponent<Bullet>();
+            if (bulletScript != null)
+            {
+                bulletScript.Initialize(Vector2.down, bulletData.speed, bulletData.damage, true);
+            }
         }
     }
 }

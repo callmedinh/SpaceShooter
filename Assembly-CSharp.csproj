@@ -60,20 +60,30 @@
     <Analyzer Include="C:\App\2022.3.16f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Skills\CoroutineManager.cs" />
     <Compile Include="Assets\Scripts\Explosion.cs" />
-    <Compile Include="Assets\Scripts\Asteroid.cs" />
-    <Compile Include="Assets\Prefabs\Interface\IDamageable.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Boss.cs" />
     <Compile Include="Assets\Scripts\Event\GameplayEvent.cs" />
+    <Compile Include="Assets\Scripts\Interface\IDamageable.cs" />
+    <Compile Include="Assets\Scripts\Skills\LaserBarrageSkill.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Interface\IShootable.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\Interface\ISkill.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\EnemyData.cs" />
+    <Compile Include="Assets\Scripts\Skills\HomingMissileSkill.cs" />
+    <Compile Include="Assets\Scripts\Manager\PlayerSelectionManager.cs" />
+    <Compile Include="Assets\Scripts\Skills\SpreadShotSkill.cs" />
     <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
     <Compile Include="Assets\Scripts\PowerUp\PowerUp.cs" />
     <Compile Include="Assets\Scripts\Manager\SpawnManager.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\BulletData.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyBase.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
+    <Compile Include="Assets\Scripts\Enemy\NormalEnemy.cs" />
+    <Compile Include="Assets\Scripts\Manager\HUDManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -82,9 +92,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\Sprites\UI\Prinbles_GUI_Asset_Silent (1.0.0)\fonts.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\Sprites\UI\Prinbles_GUI_Asset_Silent (1.0.0)\readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />

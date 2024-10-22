@@ -1,79 +1,113 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IDamageable, IShootable
 {
+    private BulletData _bulletData;
+    private PlayerData _playerData;
+    private int _currentHealth;
+
     private float _speed = 3.5f;
-    [SerializeField] private BulletData BulletData;
-    public PlayerData PlayerData;
+    private float _fireRate = 0.2f;
+    private float _canFire = 0.2f;
 
-    private float _offset = 1.05f;
-    private float _fireRate = 0.5f;
-    private float _canFire = -1f;
-    private int _lives;
-    private int _score;
+    public SpriteRenderer spriteRenderer;
+
+    private float minX, maxX, minY, maxY;
 
 
+    private Transform firePoint;
 
-    void Start()
+    public void Initialize(BulletData bulletData, PlayerData playerData)
     {
-        if (BulletData == null || PlayerData == null)
+        this._bulletData = bulletData;
+        this._playerData = playerData;
+        if (_playerData != null )
         {
-            Debug.LogWarning("Player: BulletData || PlayerData are null");
+            _speed = _playerData.speed;
+            _currentHealth = _playerData.currentHealth;
+            _fireRate = _playerData.fireRate;
         }
-        _lives = PlayerData.maxHealth;
-        _score = PlayerData.score;
+    }
+    private void Start()
+    {
+       
     }
     void Update()
     {
-        HandleMovement(KeyCode.A, KeyCode.D, KeyCode.W, KeyCode.S);
-        if (Input.GetKeyDown(KeyCode.Space) && Time.time > _canFire)
+        firePoint = this.transform;
+        if (Input.anyKey)
         {
-            FireLaser();
+            HandleMovement();
+        }
+        if (Input.GetKey(KeyCode.Space))
+        {
+            if (_bulletData != null)
+            {
+                Shoot(_bulletData, firePoint);
+            }
         }
     }
-    private void HandleMovement(KeyCode left, KeyCode right, KeyCode up, KeyCode down)
+    private void HandleMovement()
     {
-        if (Input.GetKey(left))
-        {
-            transform.Translate(Vector3.left * _speed * Time.deltaTime);
-        }else if (Input.GetKey(right))
-        {
-            transform.Translate(Vector3.right * _speed * Time.deltaTime);
-        }else if (Input.GetKey(up))
-        {
-            transform.Translate(Vector3.up * _speed * Time.deltaTime);
-        }else if (Input.GetKey(down))
-        {
-            transform.Translate(Vector3.down * _speed * Time.deltaTime);
-        } else
-        {
-            
-        }
+        float horizontalInput = Input.GetAxisRaw("Horizontal");
+        float verticalInput = Input.GetAxisRaw("Vertical");
+
+        Vector3 movement = new Vector3(horizontalInput, verticalInput, 0);
+        transform.Translate(movement.normalized * _speed * Time.deltaTime);
     }
-    void FireLaser()
+    public void TakeDamage(int amount)
     {
-        _canFire = Time.time + _fireRate;
-        GameObject bulletObject = Instantiate(BulletData.bulletPrefab, transform.position + new Vector3(0, _offset, 0), Quaternion.identity);
-        Bullet bulletScript = bulletObject.GetComponent<Bullet>();
-        bulletScript.speed = BulletData.speed;
-        bulletScript.damage = BulletData.damage;
+        _currentHealth -= amount;
+        if (_currentHealth <= 0)
+        {
+            Die();
+        }
+        StartCoroutine(FlickerEffect());
+    }
+    public void Die()
+    {
+        Destroy(gameObject);
+        GameplayEvent.GameOver?.Invoke();
     }
     public void ActivateBulletPowerup(BulletData bulletData)
     {
-        BulletData = bulletData;
-        _fireRate = bulletData.fireRate;
+        _bulletData = bulletData;
     }
-    public void AddScore(int points)
+    public int GetCurrentHealth()
     {
-        _score += points;
+        return _currentHealth;
     }
-    public int GetLive()
+
+    public void Shoot(BulletData bulletData, Transform firePoint)
     {
-        return _lives;
+        if (Time.time > _canFire)
+        {
+            _canFire = Time.time + _fireRate;
+            GameObject bullet = Instantiate(bulletData.bulletPrefab, firePoint.position, Quaternion.identity);
+            Bullet bulletScript = bullet.GetComponent<Bullet>();
+            if (bulletScript != null)
+            {
+                bulletScript.Initialize(Vector2.up, bulletData.speed, bulletData.damage, false);
+            }
+        }
+    }
+    private IEnumerator FlickerEffect()
+    {
+        float flickerDuration = 0.1f;
+        int flickerCount = 5;
+
+        for (int i = 0; i < flickerCount; i++)
+        {
+            spriteRenderer.enabled = false;
+            yield return new WaitForSeconds(flickerDuration);
+
+            spriteRenderer.enabled = true;
+            yield return new WaitForSeconds(flickerDuration);
+        }
     }
 }

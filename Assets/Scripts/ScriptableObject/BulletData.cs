@@ -5,6 +5,5 @@ public class BulletData : ScriptableObject
 {
     public int damage;
     public float speed;
-    public float fireRate;
     public GameObject bulletPrefab;
 }

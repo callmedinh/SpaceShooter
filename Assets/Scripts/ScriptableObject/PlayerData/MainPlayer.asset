@@ -12,6 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d8861a3c3c0fec46a5c3432b5949d47, type: 3}
   m_Name: MainPlayer
   m_EditorClassIdentifier: 
-  currentHealth: -20
+  currentHealth: 30
   maxHealth: 30
-  score: 55
+  score: 45
+  enemyKilled: 9
+  fireRate: 0.5
+  playerImage: {fileID: -449237460, guid: 320957355ac29f44dbecf4d70d36e1ac, type: 3}
+  playerPrefab: {fileID: 831556905971210011, guid: 9e2e559aa5e2e4545a2dd903c4f069aa, type: 3}
+  namePlayer: HELICOPTER
+  speed: 10
